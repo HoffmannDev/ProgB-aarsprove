@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -84,10 +84,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584434067697" />
-    <state x="477" y="171" key="SettingsEditor" timestamp="1584434090038">
+    <state x="477" y="171" key="SettingsEditor" timestamp="1584434303490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584434090038" />
+    <state x="477" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584434303490" />
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584433886990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
