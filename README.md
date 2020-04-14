@@ -1,6 +1,6 @@
 # ProgB-aarsprove
 
-### pre 14/04
+### Pre 14/04
 Projekt oprettet og sat op i github. Grundlæggende flask sat op.
 
 ### 14/04 - 2020
