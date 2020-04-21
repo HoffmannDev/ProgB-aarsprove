@@ -11,4 +11,4 @@ Oprettet stylesheet
 Fixede problemer som følge af forkert merge. Tog deesignmæssige beslutninger omkring UI. Fandt color palette.
 
 ### 21/04
-lavet flowchart.png
+lavet flowchart.png, lavet server siden af timer.
