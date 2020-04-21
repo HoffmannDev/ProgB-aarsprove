@@ -9,3 +9,6 @@ Oprettet stylesheet
 
 ### 15/04
 Fixede problemer som følge af forkert merge. Tog deesignmæssige beslutninger omkring UI. Fandt color palette.
+
+### 21/04
+lavet flowchart.png
