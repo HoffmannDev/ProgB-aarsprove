@@ -5,16 +5,20 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    f = open("data/test", "r")
+    tables = f.read()
+    f.close()
+    return render_template("index.html", tables=tables)
 
 @app.route('/submit', methods=['POST'])
 def post():
-    data = request.json
+    data = request.form['tables']
+    print(data)
     try:
-        with open("data/test") as f:
-            f.write(data)
-            f.close()
-            return "Success"
+        f = open("data/test", "w+")
+        f.write(data)
+        f.close()
+        return "Success"
     except:
         return "Error"
 
