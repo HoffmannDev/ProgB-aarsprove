@@ -12,3 +12,6 @@ Fixede problemer som følge af forkert merge. Tog deesignmæssige beslutninger o
 
 ### 21/04
 lavet flowchart.png, lavet server siden af timer.
+
+### 22/04
+Simulering af klient og handler den data den får. Nu mangler vi bare noget static javascript for at vise nedtælling for borde og displaye dem på en fin måde :-).
