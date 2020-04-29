@@ -1,9 +1,11 @@
 import urllib3
 import json
 
+"""
 f = open("test_tables.txt", "r")
 tables = f.read()
 f.close()
+"""
 
 http = urllib3.PoolManager()
 try:

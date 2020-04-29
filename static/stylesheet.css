@@ -2,17 +2,29 @@ body {
     background-color: #22272c;
     margin: 0;
 }
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; 
+}
+
 .white {
     color: white;
 }
 
-table {
+.table {
 	border: 1px solid black;
-	padding: 6em;
+	padding: 1em;
+    color: white;
+    width: auto;
+    height: auto;
 }
 
 #tables {
-	display: flex;
 	width: 90vw;
 	height: 90vw;
 	margin: 0 auto;
