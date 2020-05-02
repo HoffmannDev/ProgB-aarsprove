@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, jsonify
 from pathlib import Path
+import os
 
-print(os.getcwd())
 
 app = Flask(__name__)
-Path("./test").mkdir(parents=True, exist_ok=True)
+Path("./data").mkdir(parents=True, exist_ok=True)
 
 @app.route('/')
 def index():
