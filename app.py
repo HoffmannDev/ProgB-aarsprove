@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 from pathlib import Path
 
+print(os.getcwd())
+
 app = Flask(__name__)
 Path("./test").mkdir(parents=True, exist_ok=True)
 
