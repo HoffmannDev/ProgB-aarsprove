@@ -5,11 +5,14 @@ import os
 
 app = Flask(__name__)
 Path("./data").mkdir(parents=True, exist_ok=True)
-os.remove("./data/test")
 
-def add_line(path, line):
-    f = open(path, "r").read()
-    return f + ("\n" if not f else "") + str(line)
+# clear the table log
+f = open("./data/test", "w+")
+f.write("")
+f.close()
+
+#
+tablelist = []
 
 @app.route('/')
 def index():
@@ -24,10 +27,10 @@ def tables():
 @app.route('/submit', methods=['POST'])
 def post():
     data = request.form['table']
-    print(data)
+    tablelist.append(data)
     try:
         f = open("./data/test", "w+")
-        f.write(add_line(f.tell(), data))
+        f.write("\n".join(tablelist))
         f.close()
         return "Success"
     except:

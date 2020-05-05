@@ -4,7 +4,7 @@ import time
 from random import randint
 
 ms = int(round(time.time() * 1000))
-gen_table = lambda: str(ms+random.randint(100000,900000)) + " " + str(randint(0,100) + " " + str(randint(0,100)))
+gen_table = lambda: str(ms+randint(100000,900000)) + " " + str(randint(0,100)) + " " + str(randint(0,100))
 
 
 http = urllib3.PoolManager()
