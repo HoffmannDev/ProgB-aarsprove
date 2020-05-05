@@ -31,9 +31,9 @@ const ctx = canvas.getContext('2d')
 
 function rtable(timeleft,px,py) {
     if (timeleft < 60000) {
-        ctx.fillStyle = "#1c1"
-    } else {
         ctx.fillStyle = "#c11"
+    } else {
+        ctx.fillStyle = "#1c1"
     }
     ctx.fillRect(px, py, 20, 20)
     ctx.fillStyle = "#fff"
