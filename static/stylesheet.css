@@ -1,6 +1,13 @@
 body {
     background-color: #22272c;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    margin: 0;
 }
 
 .noselect {
@@ -10,22 +17,4 @@ body {
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none; 
-}
-
-.white {
-    color: white;
-}
-
-.table {
-	border: 1px solid black;
-	padding: 1em;
-    color: white;
-    width: auto;
-    height: auto;
-}
-
-#tables {
-	width: 90vw;
-	height: 90vw;
-	margin: 0 auto;
 }
