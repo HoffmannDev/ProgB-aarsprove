@@ -3,15 +3,15 @@ from pathlib import Path
 import time
 import os
 
-app = Flask(__name__)
+app = Flask(__name__) 
 Path("./data").mkdir(parents=True, exist_ok=True)
 
-# clear the table log
+
 f = open("./data/test", "w+")
 f.write("")
 f.close()
 
-#
+
 tablelist = []
 
 @app.route('/')
